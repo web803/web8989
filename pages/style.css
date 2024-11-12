@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.kkkk{
+    font-size: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.oooo{
+    font-size: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+header{
+    background-color: black;
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+
+
+
+
+}
+
+.header a{
+    text-decoration: none;
+    color:rgba(233, 213, 213, 0.842);
+    transition: 0.7s ease;
+    padding-right: 2px;
+   
+}
+
+.header{
+    padding-right: 20px;
+}
+.logo{
+    padding-right: 200px;
+
+}
+.header a:hover{
+    color: tomato;
+    transform: scale(2.2);
+}
+
+section{
+    padding: 100px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+
+align-items:center;
+background: url(../imges/3133128.jpg);
+background-size:cover;
+background-position: center;
+
+
+}
+.main img{
+    width: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 400px;
+    transition: 0.7s ease;
+    border-radius: 40px;
+    
+}
+.main img:hover{
+transform: scale(1.3);
+
+
+}
+.main2{
+    width: 100%;
+    min-height: 100vh;
+
+align-items: center;
+background: url(../imges/2.jpg);
+background-size:contain;
+background-position: center;
+
+}
+table{
+    border-width: 20px;
+    padding: 20px 28px;
+   
+    border-color:rgb(5, 53, 53);
+    color:rgb(251, 241, 241);
+}
+td{
+    font-size: 1.5em;
+    padding: 20px 30px;
+text-align: right;
+border-width: 3px;
+
+}
+th{
+    color:whitesmoke;
+    border-width: 3px;
+}
+ 
+.main2 a{
+    text-decoration: none;
+    
+}
+.main2 a:hover{
+    color:rgb(94, 243, 94);
+   
+}
+i{
+    transition: 0.7s ease;
+    display: flex;
+justify-content: center;
+align-content: center;
+padding-left: 7px;
+margin-top: 15px;
+font-size: 25px;
+}
+i:hover{
+    transform: scale(1.1);
+    
+}
+
+.main3{
+    width: 100%;
+    min-height: 100vh;
+
+
+align-items: center;
+background: url(../imges/3.jpg);
+background-size:contain;
+
+background-position: center;
+
+}
+h4{
+text-align:left;
+font-weight: 1px;
+font-size: 1.7em;
+padding-right: 2px;
+color: white;
+padding-bottom: 2px;
+
+}
+h3{
+    font-size: 35px; 
+    color: rgb(233, 228, 247);
+    text-align:right;
+    padding-left: 3px;
+    margin-left: 1px;
+}
+.projcard{
+    background-color: white;
+    border: 3px solid rgb(12, 9, 9);
+    min-height: 14em;
+    width: 12em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+    
+
+}
+
+.projcard:hover{
+    transform: scale(1.1);
+    
+
+}
+.proimage img{
+
+   
+    width: 100%;
+
+}
+
+.projinfo{
+    padding: 1em;
+}
+.pp{
+    font-size: 1em;
+color: black;
+}
+
+
+
+.protitle{
+  
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 80;
+    margin-top: 10px;
+    padding: 1px;
+    font-size: 0.7em;
+   color: rgb(236, 9, 9);
+   
+    
+}
+span
+{
+    font-size: 2em;
+}
+.more{
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+
+}
+.more:hover{
+    color: rgb(125, 243, 101);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 2em;
+   
+  
+   color:white;
+   background-color: rgb(103, 83, 140);
+   border-radius: 10px;
+   display: flex;
+  justify-content: center;
+   text-align: center;
+  
+padding-left: 10px;
+   
+  
+   
+}
+
+h2{
+    
+
+    color:white;
+    
+   
+    text-align: center;
+   padding-left: 20px;
+   font-size: 2em;
+}
+
+    
+.icon{
+    color:rgb(239, 235, 227)
+    ;
+    margin-left: 10px;
+    
+}
+.icon:hover{
+    color: tomato;
+    
+}
+
+
+
+.custom-shape-divider-bottom-1646739363{
+  background-color: rgb(5, 53, 53);
+  top: 20px;
+  margin: 3px;
+}
+
+
+p{
+    color:burlywood;
+}
+@media (max-width:1023px)
+{
+    header {
+padding: 2px 1px;
+width: 100%;
+
+font-size: 1em;
+
+    }
+   
+   
+   .logo{
+    padding-right: 10px;
+    padding-left: 10px;
+   }
+   .header a:hover{
+    color: tomato;
+    transform: scale(1.1);
+   }
+   section{
+       padding: 80px 10px;
+       
+   }
+   .main img{
+    width: 40px;
+   
+    margin-left: 160px;
+   
+    border-radius: 20px;
+}
+i{
+   
+padding-left: 3px;
+margin-top: 1px;
+font-size: 15px;
+}
+
+h4{
+    
+    font-weight: 1px;
+    font-size: 0.8em;
+    padding-right: 20px;
+    
+   
+    }
+    h3{
+       font-size: 0.5em;
+        padding-left: 1px;
+      
+        margin-left: 1px;
+    }
+    .projcard{
+      
+        border: 2px solid black;
+        min-height: 1em;
+        width: 12em;
+       
+        border-radius: 10px;
+        margin: 10px;
+       
+        
+        
+    
+    
+    }
+    
+    
+    .proj{
+        padding: 1px 1px;
+    }
+    .main3{
+        width: 100%;
+        
+        min-height: 100vh;
+    }
+    .main2{
+    				width:100% ;
+    }
+
+    h1{
+        font-size: 0.9em;
+        padding-left: 2px;
+    }    
+   h2{
+    padding-left: px;
+    font-size: 2em;
+   }
+   .pp{
+    font-size: 1em;
+   }
+}
+@media(max-width:641px)
+{
+    body{
+        font-size: 12px;
+    }
+}
+
+@media(max-width :300px)
+{
+    body{
+    font-size:10px;
+    }
+    .logo{
+        padding-right: 10px;
+       
+       }
+}
+.kkkk{
+    font-size: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.oooo{
+    font-size: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
